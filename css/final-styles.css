@@ -82,7 +82,7 @@ header {
 } 
 
 nav { 
-    padding-left: 20pt; 
+    padding-right: 30pt; 
 } 
 
 nav ul li { 
@@ -109,9 +109,7 @@ header h1 {
     display: inline-block; 
 } 
 
-header nav { 
-    width: 65%; 
-    display: inline-block; 
+header nav {  
     text-align: right; 
 } 
 
@@ -184,10 +182,8 @@ from{
 
 ==========================*/
 .contact-form {
-    padding-top: 30px;
-    padding-bottom: 75px;
-    width: 95%;
-    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .container.contact-form {    
@@ -198,7 +194,16 @@ from{
     border-style: solid;
     background-color: #121929;
     text-align: center;
+    max-width: 96%;
   }
+
+.left {
+    padding-right: 50px;
+}
+
+.right {
+    padding-left: 50px;
+}
 
 .label_input_wrap {
     display: block;
@@ -231,7 +236,7 @@ label {
 }
 
 input {
-    padding: 10px 20px;
+    padding: 8px 20px;
     border-radius: 2px;
 }
 
