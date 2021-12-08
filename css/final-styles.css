@@ -160,15 +160,18 @@ from{
 .right, 
 .left {
     display: inline-block;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .left {
     vertical-align: top;
-    margin-top: 7%;
 }
 
 .right {
     padding: 20px;
+    padding-top: 20px;
 }
 
 .light-blue {
@@ -195,6 +198,7 @@ from{
     background-color: #121929;
     text-align: center;
     max-width: 96%;
+    margin-top: 55px;
   }
 
 .left {
