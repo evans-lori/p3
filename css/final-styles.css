@@ -137,6 +137,11 @@ footer {
     Image Styling 
 
 ==========================*/ 
+.story-img {
+    float:left;
+    margin-right: 20px;
+}
+
 .abyss-book-img { 
     float:left; 
     transition: .5s; 
@@ -201,13 +206,21 @@ from{
     margin-top: 55px;
   }
 
-.left {
+.left-side {
     padding-right: 50px;
+    vertical-align: top;
+    margin-top: 7%;
 }
 
-.right {
+.right-side {
     padding-left: 50px;
+    padding: 20px;
 }
+
+.right-side, .left-side {
+    display: inline-block;
+}
+
 
 .label_input_wrap {
     display: block;
@@ -243,6 +256,22 @@ input {
     padding: 8px 20px;
     border-radius: 2px;
 }
+
+/*======================== 
+
+
+    Lightbox  
+
+==========================*/
+.lightbox {
+    width: 200px;
+}
+
+
+
+
+
+
 
 /*======================== 
 
