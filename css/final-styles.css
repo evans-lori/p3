@@ -30,7 +30,8 @@ h2 {
     font-family: 'Dancing Script', cursive;
     font-size: 35px;  
     color: #F4F4F4; 
-    padding-top: 30pt; 
+    padding-top: 30pt;
+    padding-bottom: 10pt; 
     padding-left: 20pt; 
 } 
 
