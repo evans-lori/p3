@@ -53,7 +53,7 @@
                     <h1>The <span class="light-blue">Emotional</span> Abyss</h1>
                 </section> 
 
-                <section>
+                <section> <!-- section heading omitted for style --> 
                     <div class="image-container">
                         <img class="abyss-book-img" src="images/the-emotional-abyss-book.png" alt="Book Cover" width="245"/>
                     </div>
@@ -92,7 +92,8 @@
             </div>
 
             <div class="right-side">
-                <form class="contact-form" name="firstform" method="POST" action="">
+                
+                <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)"> 
             
                     <div class="first-name input-section">
                         <label for="firstname" class="label_input_wrap">First Name:

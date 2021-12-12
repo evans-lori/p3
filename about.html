@@ -54,7 +54,7 @@
                 </section>
 
                 <div class="leftright">
-                    <section class="pseudo2"> 
+                    <section class="pseudo2"> <!-- section heading omitted for style --> 
                         <div class="left">
                             <p>Enrolled at the University of Florida, in The College of Journalism and Communications, as a Master in Mass Communication, Public Interest Communication, Graduate student.</p>
 
@@ -77,7 +77,8 @@
             </div>
 
             <div class="right-side">
-                <form class="contact-form" name="firstform" method="POST" action="">
+                
+                <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)"> 
             
                     <div class="first-name input-section">
                         <label for="firstname" class="label_input_wrap">First Name:

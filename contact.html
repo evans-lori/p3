@@ -57,7 +57,7 @@
                     <h1>Let's Connect!</h1>
                 </section>
                 
-                <section class="gallery">
+                <section class="gallery"> <!-- section heading omitted for style --> 
                     <a href="images/connection.jpeg" data-lightbox="image-1" data-title="My caption"><img src="images/connection.jpeg" alt="Typewriter Phone" width="250" /></a>
  
                     <a href="images/feather.jpeg" data-lightbox="image-2" data-title="My caption"><img src="images/feather.jpeg" alt="Feather Quill" height="166" /></a>
@@ -75,8 +75,9 @@
             </div>
 
             <div class="right-side">
-                <form class="contact-form" name="firstform" method="POST" action="">
-            
+              
+                <form class="contact-form" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)"> 
+                    
                     <div class="first-name input-section">
                         <label for="firstname" class="label_input_wrap">First Name:
                         </label>
